@@ -1,7 +1,7 @@
 {
-  "name": "TranslateGemma - 开源AI翻译模型",
-  "short_name": "TranslateGemma",
-  "description": "TranslateGemma 是 Google 基于 Gemma 3 架构开发的开源翻译模型，支持 55+ 语言，提供离线运行和云端部署，实现母语级的语境翻译。",
+  "name": "Seedance 1.5 Pro - 开源AI翻译模型",
+  "short_name": "Seedance 1.5 Pro",
+  "description": "Seedance 1.5 Pro 是 Google 基于 Gemma 3 架构开发的开源翻译模型，支持 55+ 语言，提供离线运行和云端部署，实现母语级的语境翻译。",
   "start_url": "/",
   "display": "standalone",
   "orientation": "portrait-primary",
@@ -37,14 +37,14 @@
       "sizes": "1280x720",
       "type": "image/png",
       "form_factor": "wide",
-      "label": "TranslateGemma 主界面"
+      "label": "Seedance 1.5 Pro 主界面"
     }
   ],
   "shortcuts": [
     {
       "name": "功能展示",
       "short_name": "功能",
-      "description": "查看 TranslateGemma 核心功能",
+      "description": "查看 Seedance 1.5 Pro 核心功能",
       "url": "/zh#features",
       "icons": [
         {
@@ -56,7 +56,7 @@
     {
       "name": "定价方案",
       "short_name": "定价",
-      "description": "查看 TranslateGemma 定价方案",
+      "description": "查看 Seedance 1.5 Pro 定价方案",
       "url": "/zh#pricing",
       "icons": [
         {
@@ -68,7 +68,7 @@
     {
       "name": "技术博客",
       "short_name": "博客",
-      "description": "TranslateGemma 翻译技术分享",
+      "description": "Seedance 1.5 Pro 翻译技术分享",
       "url": "/zh/blog",
       "icons": [
         {

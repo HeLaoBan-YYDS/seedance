@@ -1,5 +1,5 @@
-# LLMs.txt for TranslateGemma
-# Domain: translategemma.one
+# LLMs.txt for Seedance 1.5 Pro
+# Domain: Seedance 1.5 Pro.one
 
 # 允许访问的路径
 Allow: /
@@ -24,7 +24,7 @@ Disallow: /unauthorized/
 # 如需商业使用，请联系我们获得授权
 
 # 联系信息
-Contact: contact@translategemma.one
+Contact: contact@Seedance 1.5 Pro.one
 
 # 最后更新时间
 Last-Updated: 2025-01-20

@@ -30,9 +30,9 @@ Disallow: /auth/
 Disallow: /unauthorized/
 
 # 站点地图
-Sitemap: https://translategemma.one/sitemap.xml
-Sitemap: https://translategemma.one/sitemap.xml
-Sitemap: https://translategemma.one/sitemap.xml
+Sitemap: https://seedancehub.pro/sitemap.xml
+Sitemap: https://seedancehub.pro/sitemap.xml
+Sitemap: https://seedancehub.pro/sitemap.xml
 
 # 爬取延迟（毫秒）
 Crawl-delay: 1

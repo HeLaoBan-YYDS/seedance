@@ -1,20 +1,20 @@
 export const seoConfig = {
   baseUrl: process.env.NEXT_PUBLIC_BASE_URL || '',
-  siteName: 'TranslateGemma',
-  defaultLocale: 'zh',
+  siteName: 'Seedance 1.5 Pro',
+  defaultLocale: 'en',
   locales: ['zh', 'en'],
 
   // 默认SEO设置
   defaultSEO: {
     zh: {
-      title: 'TranslateGemma 在线翻译工具',
-      description: '不再忍受"机翻味"。利用谷歌 TranslateGemma，在任何设备上实现母语级的语境翻译。基于最新的 Gemma 3 架构，支持55+语言，提供4B/12B/27B多模型版本，支持离线运行和云端部署。',
-      keywords: 'TranslateGemma,TranslateGemma 翻译,TranslateGemma 开源翻译模型,Gemma 3 翻译,谷歌开源翻译模型,离线翻译,AI翻译,开源翻译模型,多语言翻译,私有化部署,Gemma 3,机器翻译,神经机器翻译,多模态翻译,拍照翻译,语境翻译,母语级翻译',
+      title: 'Seedance 1.5 Pro - Ultra-Realistic AI Video Generator',
+      description: 'Seedance 1.5 Pro is a free AI video generator for content creators. Generate ultra-realistic 4K videos with perfectly synchronized audio and visuals up to 15 seconds using professional storyboard-based AI.',
+      keywords: 'Seedance 1.5 Pro,AI video generator,4K AI video,AI video with sound,video storyboard generator,AI video creation tool,content creators,free AI video'
     },
     en: {
-      title: 'TranslateGemma - Open Source AI Translation by Google DeepMind',
-      description: 'TranslateGemma is Google DeepMind\'s latest open-source translation model released in January 2026, supporting 55 languages, 500+ language pairs, offline usage and private deployment.',
-      keywords: 'translategemma,AI translation,open source translation,offline translation,Google DeepMind,multi-language translation,private deployment,Gemma 3,machine translation,neural machine translation,multimodal translation',
+      title: 'Seedance 1.5 Pro - Ultra-Realistic AI Video Generator',
+      description: 'Seedance 1.5 Pro is a free AI video generator for content creators. Generate ultra-realistic 4K videos with perfectly synchronized audio and visuals up to 15 seconds using professional storyboard-based AI.',
+      keywords: 'Seedance 1.5 Pro,AI video generator,4K AI video,AI video with sound,video storyboard generator,AI video creation tool,content creators,free AI video'
     }
   },
 
@@ -22,96 +22,96 @@ export const seoConfig = {
   pages: {
     blog: {
       zh: {
-        title: 'TranslateGemma 博客 - AI翻译技术分享与最佳实践',
-        description: '探索 TranslateGemma 的最新翻译技术动态和最佳实践，深入了解 Gemma 3 架构、多模态翻译、离线部署、语境理解等AI翻译核心技术。',
-        keywords: 'TranslateGemma 博客,AI翻译技术,Gemma 3 架构,多模态翻译,离线翻译,语境翻译,机器翻译技术,开源翻译模型,翻译技术分享',
+        title: 'Seedance Blog - AI Video Creation Insights',
+        description: 'Explore AI video generation tips, creative workflows, and product updates for Seedance 1.5 Pro. Built for modern content creators.',
+        keywords: 'Seedance blog,AI video generation,video creation tips,content creator tools,AI video insights'
       },
       en: {
-        title: 'Get SaaS Blog - SaaS Development Insights & Best Practices',
-        description: 'Explore the latest SaaS development trends and best practices, learn about Next.js, user authentication, payment integration, multi-language support and other core technologies for SaaS product development.',
-        keywords: 'SaaS Development Blog,Next.js Technology,User Authentication,Payment Integration,Multi-language Support,SaaS Architecture,Frontend Development,Full-stack Development,TypeScript,Tailwind CSS',
+        title: 'Seedance Blog - AI Video Creation Insights',
+        description: 'Explore AI video generation tips, creative workflows, and product updates for Seedance 1.5 Pro. Built for modern content creators.',
+        keywords: 'Seedance blog,AI video generation,video creation tips,content creator tools,AI video insights'
       }
     },
     terms: {
       zh: {
-        title: '服务条款 - TranslateGemma',
-        description: '查看 TranslateGemma AI翻译服务的使用条款，了解服务使用规则、许可协议和用户权利责任。',
-        keywords: 'TranslateGemma 服务条款,使用协议,用户协议,AI翻译服务条款,翻译服务规则,开源翻译模型协议',
+        title: 'Terms of Service - Seedance 1.5 Pro',
+        description: 'Review the terms of service for Seedance 1.5 Pro AI video generation, including usage rules and user responsibilities.',
+        keywords: 'Seedance terms of service,AI video terms,user agreement'
       },
       en: {
-        title: 'Terms of Service - ITSAI Agent',
-        description: 'View ITSAI Agent\'s Terms of Service for voice AI agent services, understanding usage rules, user rights and responsibilities for audio recognition, voice generation and other services.',
-        keywords: 'Terms of Service,User Agreement,Service Agreement,Voice AI Service Terms,Audio Processing Service Rules,Agent Service Agreement',
+        title: 'Terms of Service - Seedance 1.5 Pro',
+        description: 'Review the terms of service for Seedance 1.5 Pro AI video generation, including usage rules and user responsibilities.',
+        keywords: 'Seedance terms of service,AI video terms,user agreement'
       }
     },
     privacy: {
       zh: {
-        title: '隐私政策 - TranslateGemma',
-        description: '了解 TranslateGemma 如何处理用户数据和隐私保护，确保您的翻译内容安全。',
-        keywords: 'TranslateGemma 隐私政策,数据保护,个人信息,翻译数据安全,隐私权,本地离线翻译,数据隐私',
+        title: 'Privacy Policy - Seedance 1.5 Pro',
+        description: 'Learn how Seedance 1.5 Pro protects your data, video content, and privacy with secure AI processing.',
+        keywords: 'Seedance privacy policy,AI video privacy,data protection'
       },
       en: {
-        title: 'Privacy Policy - ITSAI Agent',
-        description: 'Learn how ITSAI Agent collects, uses and protects your audio data and personal information to safeguard your privacy rights.',
-        keywords: 'Privacy Policy,Data Protection,Personal Information,Audio Data Security,Privacy Rights,Voice Data Protection',
+        title: 'Privacy Policy - Seedance 1.5 Pro',
+        description: 'Learn how Seedance 1.5 Pro protects your data, video content, and privacy with secure AI processing.',
+        keywords: 'Seedance privacy policy,AI video privacy,data protection'
       }
     },
     cookies: {
       zh: {
-        title: 'Cookie政策 - TranslateGemma',
-        description: '了解 TranslateGemma 如何使用Cookie和相关技术来优化用户体验和网站性能。',
-        keywords: 'TranslateGemma Cookie政策,网站Cookie,用户体验,数据收集,翻译服务优化,网站分析',
+        title: 'Cookie Policy - Seedance 1.5 Pro',
+        description: 'Learn how Seedance 1.5 Pro uses cookies to improve website performance and user experience.',
+        keywords: 'Seedance cookie policy,website cookies,user experience'
       },
       en: {
-        title: 'Cookie Policy - ITSAI Agent',
-        description: 'Learn how ITSAI Agent uses cookies and related technologies to optimize voice AI agent service experience.',
-        keywords: 'Cookie Policy,Website Cookies,User Experience,Data Collection,Voice AI Service Optimization,Website Analytics',
+        title: 'Cookie Policy - Seedance 1.5 Pro',
+        description: 'Learn how Seedance 1.5 Pro uses cookies to improve website performance and user experience.',
+        keywords: 'Seedance cookie policy,website cookies,user experience'
       }
     },
 
     'what-is-saas': {
       zh: {
-        title: 'TranslateGemma 可以应用在哪些场景？ - 翻译应用场景详解',
-        description: '深入了解 TranslateGemma 的应用场景，从个人日常翻译到企业跨境沟通，再到小语种文化交流的完整解决方案。',
-        keywords: 'TranslateGemma 应用场景,翻译场景,个人翻译,企业翻译,跨境沟通,小语种翻译,多语言沟通,翻译解决方案',
+        title: 'Seedance 1.5 Pro 的应用场景',
+        description: '了解 Seedance 1.5 Pro 在内容创作、短视频、营销视频等场景中的应用。',
+        keywords: 'Seedance 应用场景,AI视频用途'
       },
       en: {
-        title: 'What is SaaS? - SaaS Definition, Business Model and Technical Architecture Explained',
-        description: 'Understand the definition, business model, and technical architecture of SaaS, and how to rapidly build modern SaaS products. From subscription models to cloud-native architecture, providing complete SaaS development guide.',
-        keywords: 'SaaS,Software as a Service,SaaS Definition,SaaS Business Model,SaaS Architecture,Cloud Computing,Subscription Model,Multi-tenant Architecture,SaaS Development,Modern SaaS,Cloud Native,Enterprise Software',
+        title: 'What Can Seedance 1.5 Pro Be Used For?',
+        description: 'Discover how Seedance 1.5 Pro can be used for content creation, short videos, marketing videos, and cinematic storytelling.',
+        keywords: 'Seedance use cases,AI video applications,content creation'
       }
     },
     'saas-website-examples': {
       zh: {
-        title: 'TranslateGemma 可以应用在哪些场景？ - 翻译应用场景和案例详解',
-        description: '深入了解 TranslateGemma 的应用场景，从个人日常翻译到企业跨境沟通，再到小语种文化交流的完整解决方案。探索 TranslateGemma 在不同行业的实际应用案例。',
-        keywords: 'TranslateGemma 应用场景,翻译场景,个人翻译,企业翻译,跨境沟通,小语种翻译,多语言沟通,翻译解决方案,翻译案例',
+        title: 'Seedance 1.5 Pro 使用案例',
+        description: '探索 Seedance 1.5 Pro 在不同行业和创作场景中的实际案例。',
+        keywords: 'Seedance 案例,AI视频案例'
       },
       en: {
-        title: 'What Websites Can Get SaaS Build? - SaaS Template Use Cases and Examples',
-        description: 'Understand Get SaaS template application scenarios, from e-commerce platforms to enterprise management systems, to online education platforms. Explore real-world SaaS template use cases across different industries.',
-        keywords: 'SaaS Template,SaaS Use Cases,E-commerce Platform,Enterprise Management System,Online Education Platform,Project Management Tool,CRM System,ERP System,SaaS Website Examples,SaaS Development,Get SaaS',
+        title: 'Seedance 1.5 Pro Examples and Use Cases',
+        description: 'Explore real-world examples of AI videos created with Seedance 1.5 Pro by content creators.',
+        keywords: 'Seedance examples,AI video examples'
       }
     },
     'saas-features': {
       zh: {
-        title: 'TranslateGemma 有什么核心功能？ - 翻译模型核心功能和技术特性详解',
-        description: '深入了解 TranslateGemma 提供的核心功能：场景化模式注入、本地隐私优先、两阶段微调增强、多模态理解等完整解决方案。探索 TranslateGemma 的技术架构和最佳实践。',
-        keywords: 'TranslateGemma 功能,场景化翻译,本地隐私优先,两阶段微调,多模态翻译,Gemma 3 架构,离线翻译,语境翻译,翻译技术特性',
+        title: 'Seedance 1.5 Pro 核心功能',
+        description: '深入了解 Seedance 1.5 Pro 的 4K 视频生成、音画同步和分镜能力。',
+        keywords: 'Seedance 功能,AI视频功能'
       },
       en: {
-        title: 'What Features Does Get SaaS Have? - SaaS Template Core Features and Technical Specifications',
-        description: 'Explore the core features provided by Get SaaS template: user authentication, payment systems, multi-language support, SEO optimization and more. Discover modern SaaS development technology stack and best practices.',
-        keywords: 'SaaS Template Features,User Authentication System,Stripe Payment Integration,Multi-language Internationalization,SEO Optimization,Next.js,TypeScript,PostgreSQL,SaaS Development,Modern Tech Stack,Get SaaS',
+        title: 'Seedance 1.5 Pro Features',
+        description: 'Learn about Seedance 1.5 Pro features including 4K video output, audio-video sync, and professional storyboard-based AI generation.',
+        keywords: 'Seedance features,AI video features,4K AI video'
       }
     }
   },
 
   // 社交媒体设置
   social: {
-    twitter: '@zyailive',
-    email: 'app@itusi.cn',
-    wechat: 'zyailive01',
+    twitter: '@seedanceai',
+    email: 'support@seedance.ai',
+    wechat: 'seedanceai'
   },
 
   // 验证码设置
@@ -119,35 +119,34 @@ export const seoConfig = {
     google: process.env.GOOGLE_SITE_VERIFICATION,
     bing: process.env.BING_SITE_VERIFICATION,
     yandex: process.env.YANDEX_VERIFICATION,
-    baidu: process.env.BAIDU_SITE_VERIFICATION,
+    baidu: process.env.BAIDU_SITE_VERIFICATION
   },
 
   // 分析工具设置
   analytics: {
     googleAnalytics: process.env.NEXT_PUBLIC_GA_ID,
-    baiduAnalytics: process.env.NEXT_PUBLIC_BAIDU_ANALYTICS_ID,
+    baiduAnalytics: process.env.NEXT_PUBLIC_BAIDU_ANALYTICS_ID
   },
 
   // 图片设置
   images: {
     logo: '/logo.png',
     ogImage: '/logo.png',
-    favicon: '/favicon.ico',
+    favicon: '/favicon.ico'
   },
 
   // 结构化数据设置
   organization: {
-    name: 'TranslateGemma',
+    name: 'Seedance 1.5 Pro',
     foundingDate: '2025',
-    industry: 'AI Translation',
+    industry: 'AI Video Generation',
     numberOfEmployees: '1-10',
-    contactEmail: 'app@itusi.cn',
-    url: 'https://getsaaspro.com',
-    description: 'TranslateGemma 是 Google 基于 Gemma 3 架构开发的开源翻译模型，支持 55+ 语言，提供离线运行和云端部署，实现母语级的语境翻译。',
-    keywords: ['TranslateGemma', 'AI Translation', 'Gemma 3', 'Open Source Translation', 'Multi-language Translation', 'Offline Translation'],
+    contactEmail: 'support@seedance.ai',
+    url: 'https://seedance.ai',
+    description: 'Seedance 1.5 Pro is an AI-powered video generation platform designed for content creators, offering ultra-realistic 4K video with synchronized audio.',
+    keywords: ['Seedance 1.5 Pro', 'AI Video Generator', '4K AI Video', 'Content Creation'],
     sameAs: [
-      'https://github.com/ItusiAI',
-      'https://twitter.com/zyailive'
+      'https://twitter.com/seedanceai'
     ]
   }
 }

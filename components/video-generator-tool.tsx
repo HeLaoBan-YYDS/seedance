@@ -104,20 +104,24 @@ export function VideoGeneratorTool() {
   }
 
   return (
-    <Card className="w-full border-border bg-background">
+    <Card className="w-full border-border/50 bg-gradient-to-br from-card/80 to-primary/5 shadow-xl ring-1 ring-primary/30 backdrop-blur-sm animate-fade-in-up">
       <CardHeader className="pb-4">
-        <CardTitle className="flex items-center gap-2 text-xl">
-          <Video className="h-5 w-5 text-primary" />
+        <CardTitle className="flex items-center gap-2 text-2xl font-bold text-gradient-primary">
+          <Video className="h-6 w-6 text-primary" />
           Seedance 1.5 Pro
         </CardTitle>
       </CardHeader>
-      <CardContent className="space-y-4">
+      <CardContent className="space-y-6">
         {/* Input type selection */}
         <div className="flex flex-col sm:flex-row gap-3">
           <Button
             variant={inputType === "text" ? "default" : "outline"}
             onClick={() => setInputType("text")}
-            className="flex items-center gap-2"
+            className={`flex items-center gap-2 flex-1 transition-all duration-300 hover:translate-y-[-2px] ${
+              inputType === "text" 
+                ? "bg-gradient-to-r from-primary to-purple-500 text-primary-foreground shadow-lg shadow-primary/30"
+                : "bg-card border border-border/50 hover:border-primary/50 hover:shadow-md hover:shadow-primary/10"
+            }`}
           >
             <FileText className="h-4 w-4" />
             Text to Video
@@ -125,7 +129,11 @@ export function VideoGeneratorTool() {
           <Button
             variant={inputType === "image" ? "default" : "outline"}
             onClick={() => setInputType("image")}
-            className="flex items-center gap-2"
+            className={`flex items-center gap-2 flex-1 transition-all duration-300 hover:translate-y-[-2px] ${
+              inputType === "image" 
+                ? "bg-gradient-to-r from-primary to-purple-500 text-primary-foreground shadow-lg shadow-primary/30"
+                : "bg-card border border-border/50 hover:border-primary/50 hover:shadow-md hover:shadow-primary/10"
+            }`}
           >
             <Image className="h-4 w-4" />
             Image to Video
@@ -139,7 +147,7 @@ export function VideoGeneratorTool() {
               placeholder="Describe the video you want to generate, e.g., A golden retriever running on the beach at sunset..."
               value={inputText}
               onChange={(e) => setInputText(e.target.value)}
-              className="min-h-[120px] resize-none"
+              className="min-h-[120px] resize-none bg-card border border-border/50 hover:border-primary/50 transition-all duration-300 rounded-xl"
               disabled={loading}
             />
           </div>
@@ -149,17 +157,17 @@ export function VideoGeneratorTool() {
         {inputType === "image" && (
           <div className="space-y-3">
             <div className="flex items-center justify-center w-full">
-              <label htmlFor="image-upload" className="flex flex-col items-center justify-center w-full h-32 border-2 border-gray-300 border-dashed rounded-lg cursor-pointer bg-gray-50 dark:hover:bg-bray-800 dark:bg-gray-700 hover:bg-gray-100 dark:border-gray-600 dark:hover:border-gray-500 dark:hover:bg-gray-600">
+              <label htmlFor="image-upload" className="flex flex-col items-center justify-center w-full h-40 border-2 border-border/50 border-dashed rounded-xl cursor-pointer bg-card/50 hover:bg-card hover:border-primary/50 transition-all duration-300">
                 <div className="flex flex-col items-center justify-center pt-5 pb-6">
                   {uploadedImage ? (
-                    <img src={uploadedImage} alt="Uploaded" className="max-h-24 max-w-full object-contain" />
+                    <img src={uploadedImage} alt="Uploaded" className="max-h-32 max-w-full object-contain" />
                   ) : (
                     <>
-                      <Upload className="w-8 h-8 mb-2 text-gray-400" />
-                      <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
+                      <Upload className="w-10 h-10 mb-3 text-primary" />
+                      <p className="mb-2 text-sm text-foreground">
                         <span className="font-semibold">Click to upload</span> or drag and drop
                       </p>
-                      <p className="text-xs text-gray-500 dark:text-gray-400">PNG, JPG, GIF (max 10MB)</p>
+                      <p className="text-xs text-muted-foreground">PNG, JPG, GIF (max 10MB)</p>
                     </>
                   )}
                 </div>
@@ -170,11 +178,11 @@ export function VideoGeneratorTool() {
         )}
 
         {/* Video parameters settings */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div>
-            <label className="text-sm font-medium mb-2 block">Video Style</label>
+            <label className="text-sm font-medium mb-2 block text-foreground">Video Style</label>
             <Select value={videoStyle} onValueChange={setVideoStyle}>
-              <SelectTrigger>
+              <SelectTrigger className="bg-card border border-border/50 hover:border-primary/50 transition-all duration-300">
                 <SelectValue placeholder="Select video style" />
               </SelectTrigger>
               <SelectContent>
@@ -188,9 +196,9 @@ export function VideoGeneratorTool() {
           </div>
 
           <div>
-            <label className="text-sm font-medium mb-2 block">Video Duration</label>
+            <label className="text-sm font-medium mb-2 block text-foreground">Video Duration</label>
             <Select value={videoDuration} onValueChange={setVideoDuration}>
-              <SelectTrigger>
+              <SelectTrigger className="bg-card border border-border/50 hover:border-primary/50 transition-all duration-300">
                 <SelectValue placeholder="Select video duration" />
               </SelectTrigger>
               <SelectContent>
@@ -208,7 +216,7 @@ export function VideoGeneratorTool() {
         <Button
           onClick={handleGenerateVideo}
           disabled={loading || (inputType === "text" && !inputText.trim()) || (inputType === "image" && !uploadedImage)}
-          className="w-full bg-primary text-primary-foreground hover:bg-primary/90"
+          className="w-full bg-gradient-to-r from-primary to-purple-500 text-primary-foreground hover:shadow-lg hover:shadow-primary/30 transition-all duration-300 hover:translate-y-[-2px]"
         >
           {loading ? (
             <>
@@ -229,9 +237,9 @@ export function VideoGeneratorTool() {
 
         {/* Video preview */}
         {generatedVideo && (
-          <div className="rounded-md border border-border bg-secondary/50 p-4">
-            <div className="text-sm text-muted-foreground mb-2">Generated Video:</div>
-            <div className="bg-black rounded-md overflow-hidden">
+          <div className="rounded-xl border border-border/50 bg-gradient-to-br from-card/80 to-primary/5 p-4">
+            <div className="text-sm font-medium text-foreground mb-3">Generated Video:</div>
+            <div className="bg-black rounded-xl overflow-hidden shadow-lg">
               <video
                 controls
                 className="w-full max-h-64"
@@ -241,11 +249,11 @@ export function VideoGeneratorTool() {
                 Your browser does not support video playback
               </video>
             </div>
-            <div className="mt-2 flex gap-2">
-              <Button variant="outline" size="sm" className="flex-1">
+            <div className="mt-3 flex gap-3">
+              <Button variant="outline" size="sm" className="flex-1 bg-card border border-border/50 hover:border-primary/50 transition-all duration-300">
                 Download Video
               </Button>
-              <Button variant="outline" size="sm" className="flex-1">
+              <Button variant="outline" size="sm" className="flex-1 bg-card border border-border/50 hover:border-primary/50 transition-all duration-300">
                 Share Video
               </Button>
             </div>

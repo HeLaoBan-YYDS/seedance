@@ -67,13 +67,13 @@ export function Navbar() {
               <div className="relative w-8 h-8 sm:w-10 sm:h-10">
                 <Image
                   src="/logo.png"
-                  alt="Get SaaS Logo"
+                  alt="Seedance Logo"
                   fill
                   className="object-contain"
                   priority
                 />
               </div>
-              <span className="text-xl sm:text-2xl font-bold text-primary">
+              <span className="text-xl sm:text-2xl font-bold text-primary relative">
                 Seedance 1.5 Pro
               </span>
             </Link>
@@ -83,19 +83,19 @@ export function Navbar() {
           <div className="hidden md:flex items-center space-x-8">
             <button
               onClick={() => scrollToSection("home")}
-              className="text-muted-foreground hover:text-primary transition-colors duration-300 font-medium hover:scale-105 transform"
+              className="text-muted-foreground hover:text-primary transition-all duration-300 font-semibold hover:scale-105 transform relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 hover:after:w-full after:bg-primary after:transition-all after:duration-300"
             >
               {t("home")}
             </button>
             <button
               onClick={() => scrollToSection("features")}
-              className="text-muted-foreground hover:text-primary transition-colors duration-300 font-medium hover:scale-105 transform"
+              className="text-muted-foreground hover:text-primary transition-all duration-300 font-semibold hover:scale-105 transform relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 hover:after:w-full after:bg-primary after:transition-all after:duration-300"
             >
               {t("features")}
             </button>
             <button
               onClick={() => scrollToSection("pricing")}
-              className="text-muted-foreground hover:text-primary transition-colors duration-300 font-medium hover:scale-105 transform"
+              className="text-muted-foreground hover:text-primary transition-all duration-300 font-semibold hover:scale-105 transform relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 hover:after:w-full after:bg-primary after:transition-all after:duration-300"
             >
               {t("pricing")}
             </button>
@@ -106,20 +106,20 @@ export function Navbar() {
             {/* Language Switcher */}
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
-                <Button variant="ghost" size="sm" className="text-muted-foreground hover:text-primary hover:bg-secondary transition-all duration-300">
+                <Button variant="ghost" size="sm" className="text-muted-foreground hover:text-primary hover:bg-primary/10 transition-all duration-300 rounded-full">
                   <Globe className="h-4 w-4 mr-2 text-primary" />
                   {locale === "zh" ? "中" : "EN"}
                 </Button>
               </DropdownMenuTrigger>
-              <DropdownMenuContent>
-                <DropdownMenuItem onClick={() => switchLocale("zh")} className="hover:bg-secondary hover:text-primary">中文</DropdownMenuItem>
-                <DropdownMenuItem onClick={() => switchLocale("en")} className="hover:bg-secondary hover:text-primary">English</DropdownMenuItem>
+              <DropdownMenuContent className="bg-card rounded-xl border border-border shadow-lg">
+                <DropdownMenuItem onClick={() => switchLocale("zh")} className="hover:bg-primary/10 hover:text-primary transition-all duration-200">中文</DropdownMenuItem>
+                <DropdownMenuItem onClick={() => switchLocale("en")} className="hover:bg-primary/10 hover:text-primary transition-all duration-200">English</DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>
 
             {/* Theme Toggle */}
             {mounted && (
-              <Button variant="ghost" size="sm" onClick={toggleTheme} className="text-muted-foreground hover:text-primary hover:bg-secondary transition-all duration-300">
+              <Button variant="ghost" size="sm" onClick={toggleTheme} className="text-muted-foreground hover:text-primary hover:bg-primary/10 transition-all duration-300 rounded-full">
                 <Sun className="h-4 w-4 rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0 text-primary" />
                 <Moon className="absolute h-4 w-4 rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100 text-primary" />
                 <span className="sr-only">Toggle theme</span>
@@ -128,24 +128,24 @@ export function Navbar() {
 
             {/* Auth Section */}
             {status === "loading" ? (
-              <div className="w-8 h-8 animate-pulse bg-secondary rounded-full" />
+              <div className="w-8 h-8 animate-pulse bg-primary/20 rounded-full" />
             ) : session ? (
               <DropdownMenu>
                 <DropdownMenuTrigger asChild>
-                  <Button variant="ghost" size="sm" className="flex items-center space-x-2 text-muted-foreground hover:text-primary hover:bg-secondary transition-all duration-300">
+                  <Button variant="ghost" size="sm" className="flex items-center space-x-2 text-muted-foreground hover:text-primary hover:bg-primary/10 transition-all duration-300 rounded-full">
                     <User className="h-4 w-4 text-primary" />
                     <span className="hidden lg:inline">{session.user?.name || session.user?.email}</span>
                   </Button>
                 </DropdownMenuTrigger>
-                <DropdownMenuContent align="end">
-                  <DropdownMenuItem asChild className="hover:bg-secondary hover:text-primary">
+                <DropdownMenuContent align="end" className="bg-card rounded-xl border border-border shadow-lg">
+                  <DropdownMenuItem asChild className="hover:bg-primary/10 hover:text-primary transition-all duration-200">
                     <Link href={getLocalizedPath("/profile")}>
                       <User className="mr-2 h-4 w-4 text-primary" />
                       {t("profile")}
                     </Link>
                   </DropdownMenuItem>
                   <DropdownMenuSeparator />
-                  <DropdownMenuItem onClick={handleSignOut} className="hover:bg-secondary hover:text-primary">
+                  <DropdownMenuItem onClick={handleSignOut} className="hover:bg-primary/10 hover:text-primary transition-all duration-200">
                     <LogOut className="mr-2 h-4 w-4 text-primary" />
                     {t("signOut")}
                   </DropdownMenuItem>
@@ -153,10 +153,10 @@ export function Navbar() {
               </DropdownMenu>
             ) : (
               <div className="flex items-center space-x-3">
-                <Button variant="ghost" size="sm" asChild className="text-muted-foreground hover:text-primary hover:bg-secondary transition-all duration-300">
+                <Button variant="ghost" size="sm" asChild className="text-muted-foreground hover:text-primary hover:bg-primary/10 transition-all duration-300 rounded-full">
                   <Link href={getLocalizedPath("/auth/signin")}>{t("signIn")}</Link>
                 </Button>
-                <Button className="bg-primary text-primary-foreground hover:bg-primary/90 transition-all duration-300" asChild>
+                <Button className="gradient-primary text-white hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300 rounded-full" asChild>
                   <Link href={getLocalizedPath("/auth/signup")}>{t("signUp")}</Link>
                 </Button>
               </div>
@@ -165,7 +165,7 @@ export function Navbar() {
 
           {/* Mobile menu button */}
           <div className="md:hidden">
-            <Button variant="ghost" size="sm" onClick={() => setIsMenuOpen(!isMenuOpen)} className="text-muted-foreground hover:text-primary hover:bg-primary/20 transition-all duration-300">
+            <Button variant="ghost" size="sm" onClick={() => setIsMenuOpen(!isMenuOpen)} className="text-muted-foreground hover:text-primary hover:bg-primary/10 transition-all duration-300 rounded-full">
               {isMenuOpen ? <X className="h-6 w-6 text-primary" /> : <Menu className="h-6 w-6 text-primary" />}
             </Button>
           </div>

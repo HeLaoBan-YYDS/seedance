@@ -1,7 +1,8 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
+import { Progress } from "@/components/ui/progress"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Textarea } from "@/components/ui/textarea"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
@@ -35,8 +36,10 @@ export function VideoGeneratorTool() {
   const [error, setError] = useState<string>("")
   const [generatedVideo, setGeneratedVideo] = useState<string>("")
   const [uploadedImage, setUploadedImage] = useState<string | null>(null)
+  const [progress, setProgress] = useState<number>(0)
+  const [showProgress, setShowProgress] = useState<boolean>(false)
 
-  const handleGenerateVideo = async () => {
+  const handleGenerateVideo = () => {
     if (inputType === "text" && !inputText.trim()) {
       setError("Please enter text description for the video")
       return
@@ -50,46 +53,25 @@ export function VideoGeneratorTool() {
     setLoading(true)
     setError("")
     setGeneratedVideo("")
+    setProgress(0)
+    setShowProgress(true)
 
-    try {
-      const requestBody = {
-        inputType,
-        videoStyle,
-        videoDuration,
-        uploadedImage,
-        inputText
-      }
+    // Calculate progress increment per second for 15 seconds
+    const increment = 100 / 15
+    let currentProgress = 0
 
-      if (inputType === "text") {
-        requestBody.inputText = inputText
+    // Update progress every second
+    const interval = setInterval(() => {
+      currentProgress += increment
+      if (currentProgress >= 100) {
+        clearInterval(interval)
+        setProgress(100)
+        // Redirect to project's login page after 15 seconds
+        window.location.href = `/${locale}/auth/signin`
       } else {
-        requestBody.uploadedImage = uploadedImage
+        setProgress(Math.round(currentProgress))
       }
-
-      const response = await fetch("/api/video/generate", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(requestBody),
-      })
-
-      const data = await response.json()
-
-      if (!response.ok) {
-        throw new Error(data.error || "Video generation failed")
-      }
-
-      if (data.success && data.videoUrl) {
-        setGeneratedVideo(data.videoUrl)
-      } else {
-        throw new Error("No video generation result received")
-      }
-    } catch (err) {
-      setError(err instanceof Error ? err.message : "Video generation failed, please try again later")
-    } finally {
-      setLoading(false)
-    }
+    }, 1000)
   }
 
   const handleImageUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -227,6 +209,17 @@ export function VideoGeneratorTool() {
             "Generate Video"
           )}
         </Button>
+
+        {/* Progress bar */}
+        {showProgress && (
+          <div className="space-y-2">
+            <div className="flex justify-between text-sm">
+              <span className="text-muted-foreground">Generating video...</span>
+              <span className="text-primary font-medium">{progress}%</span>
+            </div>
+            <Progress value={progress} className="h-2 bg-primary/20" />
+          </div>
+        )}
 
         {/* 错误提示 */}
         {error && (

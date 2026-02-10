@@ -3,7 +3,7 @@
 import { useEffect } from "react"
 
 import { Navbar } from "@/components/navbar"
-import { TranslateTool } from "@/components/translate-tool"
+import { VideoGeneratorTool } from "@/components/video-generator-tool"
 import { HeroSection } from "@/components/hero-section"
 import { FeaturesSection } from "@/components/features-section"
 import { PricingSection } from "@/components/pricing-section"
@@ -33,9 +33,9 @@ export default function ChinesePage() {
 
       <Navbar />
       <main>
-        {/* 翻译工具 - 放在首页最顶部 */}
+        {/* AI Video Generation Tool - Placed at the top of the homepage */}
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 pt-6 pb-4">
-          <TranslateTool />
+          <VideoGeneratorTool />
         </div>
         <HeroSection />
         <FeaturesSection />

@@ -1,25 +1,25 @@
 {
   "metadata": {
-    "title": "Caricature Generator - Fun AI Caricature Generator for Everyone",
-    "description": "Turn any photo into a cartoon in seconds with our fun AI Caricature Generator. Simple, fast, and free to try. Start creating today!",
+    "title": "Seedance 1.5 Pro - AI Video Generator for Content Creators",
+    "description": "Create ultra-realistic AI videos in seconds with Seedance 1.5 Pro. Free and easy to use, it generates synchronized audio-visual stories up to 15 seconds long in 4K resolution. Perfect for content creators and storytellers.",
     "terms": {
-      "title": "Terms of Service - Caricature Generator",
-      "description": "View the terms of use for Caricature Generator AI services, including service usage rules, license agreements, and user rights and responsibilities"
+      "title": "Terms of Service - Seedance 1.5 Pro",
+      "description": "View the terms of use for Seedance 1.5 Pro video generation services, including usage rules, license agreements, and user rights."
     },
     "privacy": {
-      "title": "Privacy Policy - Caricature Generator",
-      "description": "Learn how Caricature Generator handles user data and protects privacy to ensure the security of your images and content"
+      "title": "Privacy Policy - Seedance 1.5 Pro",
+      "description": "Learn how Seedance 1.5 Pro handles user data and protects your privacy. We secure your content and personal information with robust encryption."
     },
     "cookies": {
-      "title": "Cookie Policy - Caricature Generator",
-      "description": "Learn how Caricature Generator uses Cookies and related technologies to optimize user experience and website performance"
+      "title": "Cookie Policy - Seedance 1.5 Pro",
+      "description": "Learn how Seedance 1.5 Pro uses cookies and related technologies to optimize user experience and site performance."
     }
   },
   "demoBanner": {
     "prefix": "This is the",
-    "productName": "Caricature Generator",
-    "suffix": "demo site. After experiencing the full features,",
-    "cta": "Try it for free now"
+    "productName": "Seedance 1.5 Pro",
+    "suffix": "demo site. Experience the full features.",
+    "cta": "Start Creating for Free"
   },
   "navbar": {
     "home": "Home",
@@ -39,25 +39,25 @@
     }
   },
   "hero": {
-    "title": "Caricature Generator – Fun AI Caricature Generator for Everyone",
-    "description": "Welcome to the caricature generator that everyone loves. Built for fun, speed, and creativity. Turn any photo into a cartoon in seconds. Simple, playful, and free to try.",
-    "badge": "✨ Turn Photos into Cartoons Instantly",
+    "title": "Seedance 1.5 Pro \u2013 Ultra-Realistic AI Video Generator",
+    "description": "Bring your ideas to life with Seedance 1.5 Pro. This AI-driven tool creates cinematic videos with synchronized audio in seconds. Generate up to 15-second, 4K resolution videos from text or image prompts. Completely free and perfect for creative professionals.",
+    "badge": "\u2728 Create Cinematic Videos Instantly",
     "features": {
-      "readyToUse": "No Credit Card Required",
-      "multiScenario": "Privacy & Security Assurance",
-      "professionalOutput": "High-Quality Results"
+      "readyToUse": "Completely Free to Use",
+      "multiScenario": "Multi-Scene Storyboarding",
+      "professionalOutput": "Cinematic 4K Output"
     }
   },
   "features": {
-    "title": "Why Choose Our Caricature Generator",
-    "liveGeneration": "Fast Results",
+    "title": "Why Choose Seedance 1.5 Pro",
+    "liveGeneration": "Instant Results",
     "contentSummaryAgent": {
-      "title": "Advanced AI Technology",
-      "description": "Uses advanced AI to transform photos into cartoons. Simple, playful, and free to try. Works online with no installation required. Focuses on fun and creative results."
+      "title": "Cutting-Edge AI Engine",
+      "description": "Powered by advanced AI, Seedance 1.5 Pro transforms your prompts into ultra-realistic videos. No installation needed \u2013 just enter your idea and get a professional cinematic video with audio automatically."
     },
     "podcastAgent": {
-      "title": "Easy to Use",
-      "description": "Anyone can use our caricature generator without skills. Just upload your photo, let the AI analyze it, and get a cartoon image instantly. Handles everything automatically for you."
+      "title": "Effortless Video Creation",
+      "description": "Seedance 1.5 Pro is designed for creators of all levels. No technical skills are required. Simply provide a script or storyboard, and our AI generates a polished video with synced voice and music in seconds."
     }
   },
   "faq": {
@@ -68,50 +68,50 @@
     },
     "usage": {
       "howToStart": {
-        "question": "How does the Caricature Generator work?",
-        "answer": "It's easy! Just upload your photo, let our AI analyze it, and get a cartoon image instantly. No skills required - the generator handles everything automatically."
+        "question": "How does Seedance 1.5 Pro work?",
+        "answer": "Just describe your scene or upload reference images. Our AI then generates an ultra-realistic video with synchronized audio based on your input. It handles all editing and production automatically."
       },
       "voiceQuality": {
         "question": "Do I need to install anything?",
-        "answer": "No installation needed! Our Caricature Generator works completely online. Just visit our website, upload your photo, and start creating."
+        "answer": "No installation needed! Seedance 1.5 Pro is completely web-based. Simply visit our site, enter your prompt, and start generating videos instantly."
       },
       "contentOwnership": {
-        "question": "Is the Caricature Generator free to use?",
-        "answer": "Yes, we offer a free version that allows you to try the basic features. We also have premium plans for more advanced options and unlimited usage."
+        "question": "Is Seedance 1.5 Pro free to use?",
+        "answer": "Yes! Seedance 1.5 Pro is completely free. You can create and download videos at no cost. For advanced features and commercial licenses, we offer paid plans."
       },
       "dataPrivacy": {
-        "question": "Is my photo data secure?",
-        "answer": "Yes, we take privacy seriously. Your photos are processed securely, and we do not store your images longer than necessary. All data is transmitted encrypted to ensure your privacy."
+        "question": "Is my content data secure?",
+        "answer": "Absolutely. We respect your privacy. All your inputs and generated videos are processed securely and encrypted. We do not share your content or personal information."
       }
     },
     "pricing": {
       "pointsExpiry": {
-        "question": "What file formats are supported?",
-        "answer": "We support common image formats including JPG, PNG, and WEBP. For best results, we recommend using high-resolution images."
+        "question": "What input and output formats are supported?",
+        "answer": "Seedance supports text prompts, images (PNG, JPG) and audio files as inputs. Outputs are standard MP4 videos up to 4K resolution. Use high-quality images and audio for best results."
       },
       "upgradeAnytime": {
-        "question": "How long does it take to generate a caricature?",
-        "answer": "Our AI processes images in seconds. You'll get your cartoon result almost instantly after uploading your photo."
+        "question": "How long does it take to generate a video?",
+        "answer": "Our AI is fast. A typical 15-second video is generated in just a few seconds. You\u2019ll see your video almost immediately after submitting your prompt."
       },
       "enterpriseFeatures": {
-        "question": "Can I use the generated caricatures commercially?",
-        "answer": "Yes, with our premium plans, you get commercial usage rights for all generated caricatures. The free plan is for personal use only."
+        "question": "Can I use the generated videos commercially?",
+        "answer": "Yes, videos created with Seedance 1.5 Pro are royalty-free. You can use them in personal and commercial projects. Please check the terms of service for details."
       }
     }
   },
   "pricing": {
-    "title": "Simple Pricing",
+    "title": "Simple, Transparent Pricing",
     "recommended": "Recommended",
     "free": {
       "name": "Free",
       "price": "$0 / month",
-      "description": "Basic caricature generation with watermark, limited to 5 images per day",
+      "description": "Unlimited AI video generation up to 15 seconds, with full audio and up to 4K resolution. Completely free to use.",
       "features": {
-        "template": "AI-powered caricature generation",
-        "auth": "5 free images per day",
-        "support": "Basic community support"
+        "template": "AI-powered video creation",
+        "auth": "Unlimited 15s 4K videos",
+        "support": "Community support"
       },
-      "cta": "Try It Now"
+      "cta": "Start Creating for Free"
     },
     "pro": {
       "name": "Pro",
@@ -120,13 +120,13 @@
       "discountPercent": "50",
       "savings": "$10",
       "discountBadge": "Limited Time 50% Off",
-      "description": "Unlimited caricature generation without watermark, high-resolution downloads",
+      "description": "Everything in Free, plus priority rendering and extended length. Remove limitations and get dedicated support for professional use.",
       "features": {
-        "template": "Unlimited image generation",
-        "payment": "No watermarks on results",
+        "template": "Unlimited high-res videos",
+        "payment": "No usage limits",
         "support": "Priority email support"
       },
-      "cta": "Upgrade Now"
+      "cta": "Upgrade to Pro"
     },
     "discount": {
       "was": "Was",
@@ -137,10 +137,10 @@
     "enterprise": {
       "name": "Enterprise",
       "price": "Contact Us",
-      "description": "For businesses and teams with custom needs",
+      "description": "Custom solutions for teams: bulk video generation, API access, and dedicated support.",
       "features": {
-        "custom": "API access for integration",
-        "deployment": "Bulk image processing",
+        "custom": "API access & integration",
+        "deployment": "Bulk video processing",
         "support": "Dedicated account manager",
         "training": "Custom AI model training"
       },
@@ -148,7 +148,7 @@
     }
   },
   "footer": {
-    "description": "Ready to turn your photos into fun cartoons? Join thousands of users who love our Caricature Generator. Fast, easy, and free to try - start creating today!",
+    "description": "Ready to bring your ideas to life? Join creators using Seedance 1.5 Pro. Fast, intuitive, and completely free \u2013 start creating cinematic videos today!",
     "services": {
       "title": "Services",
       "features": "Features",
@@ -157,37 +157,37 @@
     },
     "product": {
       "title": "Product",
-      "template": "AI Caricature Generation",
+      "template": "Seedance 1.5 Pro Video Generator",
       "features": "Features",
       "pricing": "Pricing Plans"
     },
     "company": {
       "title": "Company",
       "about": "About Us",
-      "careers": "Join Us",
+      "careers": "Careers",
       "blog": "Blog"
     },
     "newsletter": {
       "title": "Subscribe to Updates",
-      "description": "Get the latest news and updates about our Caricature Generator",
+      "description": "Get the latest news about Seedance 1.5 Pro and AI video generation.",
       "placeholder": "Please enter your email address",
       "subscribe_button": "Subscribe",
       "subscribing": "Subscribing...",
       "success": "Subscribed Successfully!",
       "subscribe": {
-        "successMessage": "Subscribed successfully! Thank you for your subscription, we will send you the latest Caricature Generator-related news regularly.",
+        "successMessage": "Subscribed successfully! Thank you for subscribing to Seedance 1.5 Pro updates.",
         "subscribeError": "Subscription failed, please try again later",
         "networkError": "Network error, please try again later"
       },
       "unsubscribe": {
         "title": "Unsubscribe from Mailing List",
-        "description": "We're sorry to see you go, but we respect your choice",
+        "description": "We're sorry to see you go, but we respect your choice.",
         "emailLabel": "Email Address",
         "emailPlaceholder": "Please enter your email address",
         "button": "Unsubscribe",
         "processing": "Processing...",
         "loadingText": "Processing...",
-        "successMessage": "If you change your mind, you can resubscribe to our mailing list at any time.",
+        "successMessage": "You have unsubscribed. You can resubscribe at any time.",
         "backToHome": "Back to Home",
         "networkError": "Network error, please try again later",
         "unsubscribeError": "Unsubscription failed"
@@ -197,57 +197,40 @@
         "en": "English"
       }
     },
-    "copyright": "Caricature Generator. All Rights Reserved."
+    "copyright": "Seedance 1.5 Pro. All Rights Reserved."
   },
   "verify": {
     "title": "Email Verification",
-    "description": "Verify your email address to complete account registration",
+    "description": "Verify your email address to complete registration",
     "meta_title": "Email Verification",
-    "meta_description": "Verify your Caricature Generator account email to complete account activation",
+    "meta_description": "Verify your Seedance 1.5 Pro account email to activate your account",
     "verifying": "Verifying your email...",
     "success": "Email verified successfully!",
     "failed": "Email verification failed",
     "token_missing": "Verification token is missing",
     "failed_retry": "Verification failed, please try again later",
     "please_wait": "Please wait while we verify your email address...",
-    "login_now": "Login Now",
+    "login_now": "Sign In Now",
     "register_again": "Register Again",
     "or": "Or",
     "back_to_login": "Back to Login"
   },
   "auth": {
-    "meta_title": "User Authentication - Caricature Generator",
+    "meta_title": "User Authentication - Seedance 1.5 Pro",
     "signin_title": "Sign In",
-    "signin_description": "Sign in to your Caricature Generator account and start creating fun cartoons",
+    "signin_description": "Sign in to your Seedance 1.5 Pro account and start creating videos",
     "signup_title": "Sign Up",
-    "signup_description": "Register a Caricature Generator account and start your cartoon creation journey",
+    "signup_description": "Register a Seedance 1.5 Pro account and start your video creation journey",
     "error_title": "Authentication Error",
     "error_description": "An error occurred during authentication, please try again or contact technical support",
     "error_page_title": "Login Failed",
-    "error_page_description": "An error occurred during authentication",
+    "error_page_description": "An error occurred during login, please try again later",
     "error_back_to_signin": "Back to Sign In",
     "error_back_to_home": "Back to Home",
     "error_contact_support": "If the problem persists, please contact",
     "error_technical_support": "Technical Support",
-    "errors": {
-      "Configuration": "Server configuration error, please contact the administrator",
-      "AccessDenied": "Access denied, you may not have permission to access this application",
-      "Verification": "Verification failed, please try again",
-      "OAuthSignin": "Third-party login failed, please try again",
-      "OAuthCallback": "Third-party login callback failed, please try again",
-      "OAuthCreateAccount": "Unable to create account, this email may already be in use",
-      "EmailCreateAccount": "Unable to create account, please check your email address",
-      "Callback": "Callback error, please try again",
-      "OAuthAccountNotLinked": "This third-party account is not linked to an existing account, please use another login method",
-      "EmailSignin": "Email login failed, please check your email address",
-      "CredentialsSignin": "Invalid login credentials, please check your email and password",
-      "SessionRequired": "Login is required to access this page",
-      "OAuthTokenError": "Failed to obtain authorization token, please try logging in again",
-      "OAuthUserInfoError": "Failed to obtain user information, please check authorization permissions",
-      "default": "An unknown error occurred during authentication, please try again"
-    },
     "welcome_back": "Welcome Back",
-    "login_description": "Sign in to your Caricature Generator account",
+    "login_description": "Sign in to your Seedance 1.5 Pro account",
     "email": "Email Address",
     "password": "Password",
     "email_placeholder": "Please enter your email",
@@ -277,7 +260,7 @@
     "terms_of_service": "Terms of Service",
     "and": "and",
     "privacy_policy": "Privacy Policy",
-    "loginRequiredMessage": "Please log in first to use the caricature generation function.",
+    "loginRequiredMessage": "Please log in first to use the video generation function.",
     "loginNow": "Sign In Now"
   },
   "common": {
@@ -288,13 +271,13 @@
     "edit": "Edit",
     "close": "Close",
     "back": "Back",
-    "login": "Sign In Now"
+    "login": "Sign In"
   },
   "forgot_password": {
     "title": "Forgot Password",
-    "description": "Enter your email address and we will send you a password reset link",
+    "description": "Enter your email address and we will send you a link to reset your password",
     "meta_title": "Forgot Password",
-    "meta_description": "Retrieve your Caricature Generator account password and reset it via email",
+    "meta_description": "Reset your Seedance 1.5 Pro account password via email",
     "email_label": "Email Address",
     "email_placeholder": "Please enter your email address",
     "send_reset_link": "Send Reset Link",
@@ -312,7 +295,7 @@
     "title": "Reset Password",
     "description": "Please enter your new password",
     "meta_title": "Reset Password",
-    "meta_description": "Reset your Caricature Generator account password and set a new secure password",
+    "meta_description": "Reset your Seedance 1.5 Pro account password",
     "password_label": "New Password",
     "password_placeholder": "Please enter your new password",
     "confirm_password_label": "Confirm Password",
@@ -325,7 +308,7 @@
     "password_min_length": "Password must be at least 6 characters",
     "password_mismatch": "The two passwords do not match",
     "token_invalid": "Reset link is invalid or expired",
-    "token_expired": "Reset link has expired, please reapply",
+    "token_expired": "Reset link has expired, please request again",
     "reset_failed": "Reset failed, please try again later",
     "back_to_forgot": "Back to Forgot Password"
   },
@@ -333,7 +316,7 @@
     "title": "Profile",
     "description": "View and manage your account information",
     "menu": "Function Menu",
-    "please_login": "Please log in first to view your profile",
+    "please_login": "Please log in to view your profile",
     "login_required": "Please log in first",
     "no_name_set": "Username not set",
     "not_set": "Not set",
@@ -425,13 +408,13 @@
     "name_required": "Please enter your username",
     "current_password_required": "Please enter your current password",
     "new_password_required": "Please enter your new password",
-    "password_min_length": "Password must be at least 6 characters",
     "password_mismatch": "Passwords do not match",
     "current_password_incorrect": "Current password is incorrect",
     "subscription_info": "License Info",
     "subscription_info_description": "View and manage your license plan",
     "subscription_status": "License Status",
     "subscription_active": "Active",
+    "subscription_processing": "Processing",
     "subscription_cancelled": "Cancelled",
     "subscription_past_due": "Past Due",
     "subscription_free": "Free User",
@@ -441,24 +424,24 @@
     "plan_free": "Free Plan",
     "plan_pro": "Pro Plan",
     "plan_enterprise": "Enterprise Plan",
-    "plan_free_description": "Basic template for individual developers",
-    "plan_pro_description": "Full features for professional development",
-    "plan_enterprise_description": "Custom services for enterprise teams",
+    "plan_free_description": "Basic video generation for individual users",
+    "plan_pro_description": "All features for professional creators",
+    "plan_enterprise_description": "Custom solutions for enterprise teams",
     "manage_subscription": "Manage License",
     "upgrade_to_pro": "Upgrade to Pro",
     "upgrade_benefits_title": "Upgrade for More Benefits",
-    "upgrade_benefits_1": "Complete SaaS template source code",
-    "upgrade_benefits_2": "Priority technical support",
-    "upgrade_benefits_3": "12B model commercial license",
-    "upgrade_benefits_4": "Bulk translation API",
-    "points_purchase": "Points Purchase",
-    "points_purchase_description": "Purchase a license to access full TranslateGemma benefits",
-    "points_package_starter": "Starter Package",
-    "points_package_popular": "Popular Package",
-    "points_package_premium": "Premium Package",
+    "upgrade_benefits_1": "Priority video rendering",
+    "upgrade_benefits_2": "Extended video lengths",
+    "upgrade_benefits_3": "Commercial license included",
+    "upgrade_benefits_4": "API & integration support",
+    "points_purchase": "Purchase Credits",
+    "points_purchase_description": "Get video generation credits for unlimited use",
+    "points_package_starter": "Starter Pack",
+    "points_package_popular": "Popular Pack",
+    "points_package_premium": "Premium Pack",
     "points_usage_title": "License Benefits",
-    "points_usage_ai_service": "Multi-model translation access",
-    "points_usage_premium_features": "Premium translation features",
+    "points_usage_ai_service": "Video generation access",
+    "points_usage_premium_features": "Premium features",
     "points_usage_priority_support": "Priority technical support",
     "purchase_now": "Buy Now",
     "processing_payment": "Processing...",
@@ -470,91 +453,47 @@
     "card_info": "Card Information",
     "pay_amount": "Pay",
     "purchase_success": "Purchase Successful!",
-    "points_added": "Benefits added",
-    "current_points": "Current Benefits",
+    "points_added": "Credits added",
+    "current_points": "Current Credits",
     "view_pricing": "View Pricing",
-    "purchased_points_label": "Purchased Benefits (Never Expire)",
-    "gifted_points_label": "Gifted Benefits (Expire When Subscription Ends)",
-    "subscription_gift_notice": "You are currently subscribed to the Pro version and have access to professional-grade translation benefits",
-    "purchased_points": "Purchased Benefits",
-    "purchased_points_description": "Benefits purchased via payment, never expire and can be used long-term",
-    "gifted_points": "Gifted Benefits",
-    "gifted_points_description": "Benefits gifted with Pro version subscription, will be cleared when the subscription expires",
+    "purchased_points_label": "Purchased Credits (No Expiry)",
+    "gifted_points_label": "Gifted Credits (Expire with Plan)",
+    "subscription_gift_notice": "You have Pro plan benefits, including unlimited video generation and priority support!",
+    "purchased_points": "Purchased Credits",
+    "purchased_points_description": "Credits purchased via payment, never expire",
+    "gifted_points": "Gifted Credits",
+    "gifted_points_description": "Credits gifted with Pro plan subscription, will be cleared when the plan expires",
     "usage_priority": "Usage Priority",
-    "usage_priority_description": "The system will use gifted benefits first, then purchased benefits",
-    "recommended": "Recommended",
-    "processing": "Processing...",
-    "payment_history": "Payment History",
-    "payment_history_description": "View all payment records and transaction details",
-    "payment_history_details": {
-      "title": "Payment History",
-      "stats": {
-        "title": "Payment Statistics",
-        "total_payments": "Total Payments",
-        "total_amount": "Total Amount Paid",
-        "total_points_purchased": "Total Benefits Purchased",
-        "successful_payments": "Successful Payments"
-      },
-      "payment_types": {
-        "subscription": "Subscription",
-        "points_purchase": "Benefits Purchase",
-        "other": "Other"
-      },
-      "payment_statuses": {
-        "succeeded": "Succeeded",
-        "failed": "Failed",
-        "pending": "Pending",
-        "refunded": "Refunded",
-        "cancelled": "Cancelled"
-      },
-      "table": {
-        "type": "Type",
-        "product": "Product",
-        "amount": "Amount",
-        "points": "Benefits",
-        "status": "Status",
-        "time": "Time"
-      },
-      "filters": {
-        "type_placeholder": "Filter by Type",
-        "status_placeholder": "Filter by Status",
-        "all_types": "All Types",
-        "all_statuses": "All Statuses"
-      },
-      "empty_state": {
-        "title": "No payment records"
-      },
-      "errors": {
-        "fetch_failed": "Failed to fetch payment records"
-      }
-    }
+    "usage_priority_description": "The system will use gifted credits first, then purchased credits",
+    "recommended": "Recommended"
   },
   "dashboard": {
     "payment_success": {
       "title": "Purchase Successful!",
-      "subtitle": "Welcome to TranslateGemma Pro",
+      "subtitle": "Welcome to Seedance 1.5 Pro",
       "processing_title": "Processing Payment Result",
       "processing_description": "Please wait while we confirm your purchase status...",
-      "verifying_title": "Verifying Purchase Status",
-      "verifying_description": "Confirming your Pro version purchase...",
-      "success_toast": "🎉 Pro version purchased successfully! You now have access to full multimodal translation features and technical support",
-      "no_session_toast": "💡 You have reached the purchase success page, please navigate using the buttons below"
+      "verifying_title": "Verifying Purchase",
+      "verifying_description": "Confirming your Pro plan purchase...",
+      "success_toast": "🎉 Pro plan activated successfully! You now have full access to Seedance 1.5 Pro features.",
+      "no_session_toast": "💡 You have reached the purchase success page. Please use the buttons below."
     },
     "subscription_info": {
-      "title": "Pro Version License",
+      "title": "Pro Plan License",
       "status_label": "License Status:",
       "status_active": "Active",
       "status_processing": "Processing",
       "plan_label": "License Type:",
-      "plan_pro": "Pro Version",
-      "expires_label": "Support Expires:"
+      "plan_pro": "Pro Plan",
+      "plan_enterprise": "Enterprise Plan",
+      "expires_label": "Expires on:"
     },
     "points_reward": {
-      "title": "Purchased Benefits",
-      "total_points": "Total Benefits",
-      "purchased_points": "Purchased Benefits",
-      "gifted_points": "Gifted Benefits",
-      "gift_notice": "🎁 You have access to full Pro version benefits, including multimodal translation, batch processing, and priority technical support!"
+      "title": "Credits",
+      "total_points": "Total Credits",
+      "purchased_points": "Purchased Credits",
+      "gifted_points": "Gifted Credits",
+      "gift_notice": "🎁 You have Pro plan benefits: unlimited video generation and priority support!"
     },
     "actions": {
       "view_profile": "View Profile",
@@ -563,12 +502,12 @@
     "loading": "Loading...",
     "error": {
       "fetch_failed": "Failed to fetch subscription information, please refresh the page and try again",
-      "manage_subscription_failed": "Unable to open subscription management page, please try again later"
+      "manage_subscription_failed": "Unable to open subscription page, please try again later"
     }
   },
   "admin": {
     "newsletter": {
-      "meta_title": "Newsletter Statistics - TranslateGemma",
+      "meta_title": "Newsletter Statistics - Seedance 1.5 Pro",
       "meta_description": "View and manage newsletter statistics, including number of subscribers, language distribution, etc.",
       "title": "Newsletter Statistics",
       "stats": {
@@ -617,114 +556,114 @@
   },
   "unauthorized": {
     "title": "Access Denied",
-    "description": "You do not have permission to access this page. This page is for administrators only.",
-    "errorMessage": "If you believe this is an error, please contact the system administrator.",
+    "description": "You do not have permission to access this page.",
+    "errorMessage": "If you believe this is an error, please contact the administrator.",
     "backToHome": "Back to Home",
     "signInAgain": "Sign In Again"
   },
   "testimonials": {
     "title": "Industry Recognition",
-    "description": "Trusted by thousands of cross-border pioneers worldwide. TranslateGemma 12B even outperforms the 27B benchmark model with twice the parameter count. This is a major breakthrough in localization development.",
+    "description": "Trusted by creators and professionals worldwide, Seedance 1.5 Pro delivers cinematic AI videos with unparalleled audio-visual quality.",
     "items": [
       {
         "name": "Alex Johnson",
-        "title": "Cross-border E-commerce CEO",
-        "content": "TranslateGemma has enabled true contextual translation in our cross-border business! The 12B model runs smoothly on consumer-grade laptops, and the translation quality far exceeds traditional tools, allowing us to easily enter new markets.",
+        "title": "Film Director",
+        "content": "Seedance 1.5 Pro gave us stunning 4K footage with natural audio. It\u2019s become our go-to tool for quick video production.",
         "rating": 5
       },
       {
-        "name": "Sarah Miller",
-        "title": "International Product Manager",
-        "content": "The offline capability of TranslateGemma is incredible! We can now provide translation services even in areas with poor connectivity. The 4B model runs perfectly on mobile devices.",
+        "name": "Mia Wong",
+        "title": "Social Media Manager",
+        "content": "Creating engaging content is effortless now. Seedance 1.5 Pro\u2019s realistic animations and synced voiceovers have boosted our engagement.",
         "rating": 5
       },
       {
-        "name": "Li Ming",
-        "title": "Technical Director",
-        "content": "As a technical director, I am impressed by TranslateGemma's Gemma 3 architecture. The multimodal translation feature allows our product to directly translate text in images, greatly improving the user experience.",
+        "name": "Carlos Garcia",
+        "title": "Marketing Strategist",
+        "content": "The ability to generate multilingual videos saved us time and money. Seedance 1.5 Pro\u2019s quality rivals professional studio work.",
         "rating": 5
       },
       {
-        "name": "David Chen",
-        "title": "Developer",
-        "content": "The OpenAI-compatible API makes integration seamless! We integrated TranslateGemma into our SaaS product in just hours. The context-aware translation is a game-changer.",
+        "name": "Sophie Lee",
+        "title": "Independent Filmmaker",
+        "content": "As an indie creator, Seedance 1.5 Pro is a game changer. The output quality is cinematic, and it\u2019s incredibly easy to use.",
         "rating": 5
       },
       {
-        "name": "Wang Xiaoyu",
-        "title": "Independent Developer",
-        "content": "TranslateGemma's local privacy-first design gives me peace of mind to use it. It supports full offline inference, ensuring that business secrets never leave the device and I have complete control over data assets. This is extremely important to us.",
+        "name": "Raj Patel",
+        "title": "Creative Director",
+        "content": "From concept to final cut, Seedance 1.5 Pro accelerated our workflow. The integrated audio generation makes projects feel more complete.",
         "rating": 5
       },
       {
-        "name": "Michael Rodriguez",
-        "title": "Enterprise User",
-        "content": "Perfect for enterprise deployment! The 27B model with custom domain fine-tuning has transformed our multilingual customer support. Translation quality is now native-level.",
+        "name": "Emily Smith",
+        "title": "YouTube Content Creator",
+        "content": "It\u2019s like having a professional video editor on demand. High-quality videos with voice sync, all for free!",
         "rating": 5
       }
     ]
   },
   "blogPage": {
-    "title": "TranslateGemma Blog",
-    "subtitle": "Explore the latest trends and technical sharing of AI translation",
+    "title": "Seedance Blog",
+    "subtitle": "Explore the latest trends and updates in AI video creation",
     "contactPost": {
       "badge": "Latest",
-      "date": "January 2026",
-      "author": "TranslateGemma Team",
-      "title": "Start Your Boundless Communication Now",
-      "description": "Ready to experience contextual translation? Join 10,000+ developers and cross-border sellers in their choice.",
+      "date": "December 2025",
+      "author": "Seedance Team",
+      "title": "Start Your AI Video Journey Now",
+      "description": "Bring your creative ideas to life. Join thousands of creators using Seedance 1.5 Pro to produce cinematic videos effortlessly.",
       "contactMethods": {
         "title": "🤝 Contact Methods",
         "twitter": {
           "title": "Twitter",
           "description": "Follow us for the latest updates",
-          "handle": "@translategemma"
+          "handle": "@seedanceai"
         },
         "email": {
           "title": "Email",
           "description": "Business cooperation and technical support",
-          "address": "support@translategemma.org"
+          "address": "support@seedance.ai"
         },
         "wechat": {
           "title": "WeChat",
           "description": "Add WeChat for exclusive services",
-          "id": "translategemma"
+          "id": "seedanceai"
         }
       },
       "services": {
-        "title": "🎯 What Can We Do For You?",
-        "podcast": "Open source translation model download and technical documentation",
-        "voiceover": "Multilingual translation solution integration",
-        "video": "Enterprise-level private deployment support",
-        "support": "7×24-hour professional technical support",
-        "custom": "Customize exclusive translation features according to your needs"
+        "title": "🎯 What Seedance 1.5 Pro Offers",
+        "podcast": "Text-to-video AI generation",
+        "voiceover": "Built-in dialogue and sound effects",
+        "video": "Up to 4K video output",
+        "support": "24/7 dedicated support",
+        "custom": "Custom solutions and APIs"
       },
       "cta": {
-        "title": "Ready to start your AI translation journey?",
-        "startNow": "Register a free account",
-        "contactUs": "View developer documentation"
+        "title": "Ready to revolutionize your video content?",
+        "startNow": "Register for Free",
+        "contactUs": "View API Documentation"
       }
     },
     "otherPosts": {
-      "title": "Caricature Generator Insights",
-      "description": "Explore the latest trends and features of the fun AI Caricature Generator",
+      "title": "AI Video Generation Insights",
+      "description": "Explore the latest trends and features of Seedance 1.5 Pro.",
       "post1": {
-        "category": "Usage Scenarios",
+        "category": "Use Cases",
         "date": "January 2026",
-        "title": "What scenarios can the Caricature Generator be applied to?",
-        "excerpt": "Discover how the Caricature Generator can be used for personal fun, social media sharing, creative content creation, and more. Perfect for casual users and content creators alike."
+        "title": "What can Seedance 1.5 Pro be used for?",
+        "excerpt": "From social media clips and marketing promos to short films and ads, Seedance 1.5 Pro helps creators produce high-quality content quickly and easily."
       },
       "post2": {
         "category": "Product Features",
         "date": "January 2026",
-        "title": "What core features does the Caricature Generator offer?",
-        "excerpt": "Learn about the key features of our Caricature Generator: AI-powered transformation, instant photo-to-cartoon conversion, free online access, no installation required, and high-quality results."
+        "title": "Key features of Seedance 1.5 Pro",
+        "excerpt": "Discover the core capabilities: co-generated video and audio, scene-based storyboarding, and full 4K video support. See why Seedance leads the AI video revolution."
       },
       "post3": {
         "category": "Industry Trends",
         "date": "January 2026",
-        "title": "How is AI changing the caricature creation experience?",
-        "excerpt": "Explore the development of AI-powered image generation technology and how our Caricature Generator is leading the way in making fun cartoon creation accessible to everyone."
+        "title": "How AI is transforming video creation",
+        "excerpt": "AI video generation is changing content creation. Explore how tools like Seedance 1.5 Pro enable creators to generate professional videos with ease and innovation."
       },
       "readMore": "Read More"
     }

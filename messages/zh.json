@@ -49,11 +49,11 @@
     }
   },
   "features": {
-    "title": "Why Choose Seedance 1.5 Pro",
+    "title": "Seedance 1.5 Feature",
     "liveGeneration": "Instant Results",
     "contentSummaryAgent": {
-      "title": "Cutting-Edge AI Engine",
-      "description": "Powered by advanced AI, Seedance 1.5 Pro transforms your prompts into ultra-realistic videos. No installation needed \u2013 just enter your idea and get a professional cinematic video with audio automatically."
+      "title": "Smooth & Stable Motion",
+      "description": "Experience fluid, high-fidelity motion with Seedance 1.5. Its superior dynamic range masters everything from delicate emotive cues to expansive physical maneuvers, delivering a perfect balance of lifelike realism and robust stability."
     },
     "podcastAgent": {
       "title": "Effortless Video Creation",

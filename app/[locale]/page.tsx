@@ -10,6 +10,7 @@ import { PricingSection } from "@/components/pricing-section"
 import { Testimonials } from "@/components/testimonials"
 import { FAQSection } from "@/components/faq-section"
 import { BlogSection } from "@/components/blog-section"
+import StickyScrollRevealDemo from "@/components/sticky-scroll-reveal-demo"
 import { Footer } from "@/components/footer"
 import { PageBackground } from "@/components/page-background"
 
@@ -38,6 +39,10 @@ export default function ChinesePage() {
           <VideoGeneratorTool />
         </div>
         <HeroSection />
+        {/* Sticky Scroll Reveal Effect */}
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16">
+          <StickyScrollRevealDemo />
+        </div>
         <FeaturesSection />
         <Testimonials />
         <FAQSection />

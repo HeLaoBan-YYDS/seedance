@@ -38,11 +38,11 @@ export default function ChinesePage() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 pt-6 pb-4">
           <VideoGeneratorTool />
         </div>
-        <HeroSection />
         {/* Sticky Scroll Reveal Effect */}
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <StickyScrollRevealDemo />
         </div>
+        <HeroSection />
         <FeaturesSection />
         <Testimonials />
         <FAQSection />

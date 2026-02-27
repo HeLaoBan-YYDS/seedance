@@ -28,26 +28,26 @@
   }
 
   .light {
-    /* 配色方案 - 浅色模式 - 温暖棕褐色调 */
-    --background: 42 35% 95%;
-    --foreground: 28 20% 15%;
-    --card: 42 35% 97%;
-    --card-foreground: 28 20% 15%;
-    --popover: 42 35% 95%;
-    --popover-foreground: 28 20% 15%;
-    --primary: 28 52% 35%;
-    --primary-foreground: 42 20% 96%;
-    --secondary: 28 30% 90%;
-    --secondary-foreground: 28 52% 35%;
-    --muted: 28 25% 92%;
-    --muted-foreground: 28 15% 40%;
-    --accent: 28 15% 88%;
-    --accent-foreground: 28 20% 15%;
-    --destructive: 0 66% 40%;
-    --destructive-foreground: 0 0% 98%;
-    --border: 28 15% 84%;
-    --input: 28 15% 84%;
-    --ring: 28 52% 28%;
+    /* 配色方案 - 暗色模式 - 温暖深棕色调 */
+    --background: 28 25% 10%; /* #1A1512 深棕色背景 */
+    --foreground: 48 30% 90%; /* #E8E0D5 浅色文字 */
+    --card: 28 25% 12%; /* #1F1A16 卡片背景 */
+    --card-foreground: 48 30% 90%; /* #E8E0D5 卡片文字 */
+    --popover: 28 25% 10%; /* #1A1512 弹窗背景 */
+    --popover-foreground: 48 30% 90%; /* #E8E0D5 弹窗文字 */
+    --primary: 28 52% 58%; /* #C48B5A 亮棕色主色 */
+    --primary-foreground: 42 20% 96%; /* #F5EDE3 主色文字 */
+    --secondary: 28 20% 20%; /* #2E2822 次要背景 */
+    --secondary-foreground: 42 35% 95%; /* #F5F0E8 次要文字 */
+    --muted: 28 15% 15%; /* #1F1A16 静音背景 */
+    --muted-foreground: 28 10% 60%; /* #998573 中性灰文字 */
+    --accent: 28 15% 18%; /* #272220 强调色 */
+    --accent-foreground: 48 30% 90%; /* #E8E0D5 强调文字 */
+    --destructive: 0 66% 40%; /* #B33A3A 破坏性颜色 */
+    --destructive-foreground: 0 0% 98%; /* #FAFAFA 白色文字 */
+    --border: 28 20% 15%; /* #221D18 边框 */
+    --input: 28 20% 15%; /* #221D18 输入框 */
+    --ring: 48 60% 50%; /* #C49560 焦点环 */
   }
 
   .dark {
@@ -212,4 +212,14 @@ html {
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
+}
+
+/* 隐藏滚动条 */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
 }

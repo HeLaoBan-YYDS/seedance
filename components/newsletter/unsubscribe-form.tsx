@@ -85,7 +85,7 @@ export function UnsubscribeForm() {
   }
 
   return (
-    <Card className="shadow-xl border-0 bg-white/80 backdrop-blur-sm">
+    <Card className="shadow-xl border-0 bg-card/80 backdrop-blur-sm">
       <CardHeader className="text-center">
         <CardTitle className="text-2xl font-bold text-slate-800">
           {t('newsletter.unsubscribe.title')}
